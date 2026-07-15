@@ -103,4 +103,85 @@
 #     tax=(payment-100000)*0.10
 # else:
 #     print("invalid input")
-    
+
+
+
+
+# simple calculator
+# n1=int(input("Enter n:"))
+# n2=int(input("Enter n:"))
+# op=input("enter oprator:")
+# match op:
+#     case "+":
+#         print(n1+n2)
+#     case "-":
+#         print(n1-n2)
+#     case "*":
+#         print(n1*n2)
+#     case "/":
+#         print(n1/n2)
+#     case _:
+#         print("invalid oprator")
+
+
+
+# # ATM withdrawal
+# pin1=1234
+# pin=int(input("enter pin:"))
+# if pin==pin1:
+#     print("pin matched")
+# else:
+#     print("try again! ")
+# amt=int(input("enter amount:"))
+# if amt>=500:
+#     print("recieved amount",amt)
+# else:
+#     print("atleast 500 , try diffrent account",amt)
+
+
+
+
+# login system
+# password_set=191984
+# ph_num=int(input("enter phone number:"))
+# password=int(input("enter password:"))
+# if password==password_set:
+#     print("unlocked")
+# else:
+#     print("not matched try again!")
+
+
+
+
+# chessboard square colour
+# coord = input("Enter coordinate: ")
+
+# column = coord[0]      
+# row = int(coord[1])    
+
+# if column == 'a' or column == 'c' or column == 'e' or column == 'g':
+#     if row == 2 or row == 4 or row == 6 or row == 8:
+#         print("White")
+#     else:
+#         print("Black")
+
+# elif column == 'b' or column == 'd' or column == 'f' or column == 'h':
+#     if row == 1 or row == 3 or row == 5 or row == 7:
+#         print("White")
+#     else:
+#         print("Black")
+
+# else:
+#     print("Invalid input")
+
+
+
+# rock paper scissor
+user1=input("enter user's choice: ")
+user2=input("enter user's choice: ")
+if user1 =="rock" and (user2=="paper" or user2=="scissors"):
+    print("user1 has won")
+elif user2 =="rock" and (user1=="paper" or user1=="scissors"):
+    print("user2 has won")
+else:
+    print("invalid input")
