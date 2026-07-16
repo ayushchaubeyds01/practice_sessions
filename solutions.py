@@ -177,11 +177,5 @@
 
 
 # rock paper scissor
-user1=input("enter user's choice: ")
-user2=input("enter user's choice: ")
-if user1 =="rock" and (user2=="paper" or user2=="scissors"):
-    print("user1 has won")
-elif user2 =="rock" and (user1=="paper" or user1=="scissors"):
-    print("user2 has won")
-else:
-    print("invalid input")
+for _ in range(1,4):
+    print("meow")
