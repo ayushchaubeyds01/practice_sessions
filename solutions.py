@@ -179,3 +179,7 @@
 # rock paper scissor
 for _ in range(1,4):
     print("meow")
+    
+    
+for i in range(1,9):
+    print("sql")
