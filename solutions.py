@@ -196,3 +196,74 @@
 
 
 
+
+# print reverse of a number 
+# num=int(input("enter  num:"))
+# rev=0
+# for i in range(1,len(str(num))+1):
+#     digit=num%10
+#     rev=rev*10 + digit
+#     num//=10
+# print(rev)
+
+
+
+# #sum of odd number
+# n=int(input("enter n:"))
+# total=0
+# for i in range(1,n+1):
+#     if i%2!=0:
+#         total+=i
+#         n//=10
+# print(total)
+
+
+# # count no of  digit
+# n=int(input("enter n:"))
+# count=0
+# for i in range(1,len(str(n))+1):
+#     count+=1
+# print(count)
+
+
+
+
+# # armstrong number 
+# n=int(input("enter n:"))
+# sum=0
+# b=len(str(n))
+# for i in range(1,b+1):
+#     digit=n%10
+#     sum+=digit**b
+#     n//=10
+# print(sum)
+
+
+
+# strong number 
+# n=int(input("enter n:"))
+
+# sum=0
+# for i in range(1,len(str(n))+1):
+#     digit=n%10
+#     fact=1
+#     for j in range(1,digit+1):
+#         fact*=j
+#     sum+=fact
+#     n//=10
+# print(sum)
+
+
+
+
+
+# # perfect number 
+# n=int(input("enter n:"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if n==sum:
+#     print("strong number")
+# else:
+#     print("not")
