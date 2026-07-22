@@ -267,3 +267,78 @@
 #     print("strong number")
 # else:
 #     print("not")
+
+
+
+
+
+# # factorial of a number
+# fact=1
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+
+
+
+
+# # fibonacci series
+# n=int(input("enter n:"))
+# a,b=0,1
+# for i in range(1,n+1):
+#     print(a)
+#     a,b=b,a+b
+
+
+# # prime number 
+# n=int(input("enter n:"))
+# if n<1:
+#     print("not prime")
+# else:
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime")
+
+
+# gcd
+# rem=0
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# for i in range(len(str(n2))):
+#     rem=n1%n2
+#     n1=n2
+#     n2=rem
+# print(n2)
+
+
+
+
+
+# # count vowels 
+# count=0
+# char=input("enter char:")
+# vowel='a','e','i','o','u'
+# for ch in char:
+#     if ch in vowel:   
+    
+#         count+=1
+# print(count)
+
+
+
+
+
+
+# count vowels 
+count=0
+char=input("enter char:")
+vowel='a','e','i','o','u'
+for ch in char:
+    if ch in vowel:   
+    
+        count+=1
+print(count)
