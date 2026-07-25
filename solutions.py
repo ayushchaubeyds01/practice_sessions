@@ -342,3 +342,12 @@ for ch in char:
     
         count+=1
 print(count)
+count=0
+char=input("enter char:")
+vowel='a','e','i','o','u'
+for ch in char:
+    if ch in vowel:   
+    
+        count+=1
+print(count)
+
