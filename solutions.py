@@ -333,39 +333,59 @@
 
 
 
-# count vowels 
-count=0
-char=input("enter char:")
-vowel='a','e','i','o','u'
-for ch in char:
-    if ch in vowel:   
+# # count vowels 
+# count=0
+# char=input("enter char:")
+# vowel='a','e','i','o','u'
+# for ch in char:
+#     if ch in vowel:   
     
-        count+=1
-print(count)
-count=0
-char=input("enter char:")
-vowel='a','e','i','o','u'
-for ch in char:
-    if ch in vowel:   
-    
-        count+=1
-print(count)
-
-
-char=input("enter char:")
-vowel='a','e','i','o','u'
-for ch in char:
-    if ch in vowel:   
-    
-        count+=1
-print(count)
+#         count+=1
+# print(count)
 
 
 
-char=input("enter char:")
-vowel='a','e','i','o','u'
-for ch in char:
-    if ch in vowel:   
-    
-        count+=1
-print(count)
+
+
+
+
+# # print fibonacci series
+# n=int(input("enter n:"))
+# a,b=0,1
+# for i in range(1,n+1):
+#     print(a)
+#     a,b=b,a+b
+
+
+
+# # count digits
+# n=int(input("enter n:"))
+# count=0
+# b=len(str(n))
+# for i in range(1,b+1):
+#     n//=10
+#     count+=1
+# print(count)    
+
+
+
+
+# # sum of digit
+# n=int(input("enter n:"))
+# total=0
+# for i in range(1,n+1):
+#     digit=n%10
+#     total+=digit
+#     n//=10
+# print(total)
+
+
+
+total=0
+for i in range(1,n+1):
+    digit=n%10
+    total+=digit
+    n//=10
+print(total)
+
+
