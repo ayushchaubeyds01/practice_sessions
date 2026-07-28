@@ -381,11 +381,135 @@
 
 
 
-total=0
+
+# # strong number 
+# n=int(input("enter n:"))
+# sum=0
+# temp=n
+# for i in range(1,len(str(n))+1):
+#     digit=temp%10
+#     fact=1
+#     for j in range(1,digit+1):
+#         fact*=j
+#     sum+=fact
+#     temp//=10
+# if sum==n:
+#     print("perfect number")
+# else:
+#     print("not")
+
+
+# # perfect number 
+# n=int(input("enter n:"))
+# temp=n
+# sum=0
+# for i in range(1,n):
+#     if temp%i==0:
+#         sum+=i
+# if sum==n:
+#     print("perfect number")
+# else:
+#     print("not")
+
+
+# # automorphic number
+# n=int(input("enter n:"))
+# temp=n
+# sq=n**2
+# for i in range(1,sq+1):
+#     digit=sq%10
+# if digit==n:
+#     print("automorphic number")
+# else:
+#     print("not")
+
+
+
+# # harshada number 
+# n=int(input("enter n:"))
+# temp=n
+# sum=0
+# for i in range(1,n+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if n%sum==0:
+#     print("harshada number")
+# else:
+#     print("not")
+
+
+
+# # neon number
+# n=int(input("enter number"))
+# sq=n**2
+# sum=0
+# b=len(str(sq))
+# for i in range(1,b+1):
+#     digit=sq%10
+#     sum+=digit
+#     sq//=10
+# if sum==n:
+#     print("it is neon number")
+# else:
+#     print("not ")
+
+
+
+# # prime number
+# n=int(input("enter n:"))
+# if n<=1:
+#     print("not prime")
+# else:
+#     for i in range(2,(int(n**0.5)+1)):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime nmuber")
+
+
+
+# # n prime numbers
+# n=int(input("enter n:"))
+# for num in range(1,n+1):
+#     if num<=1:
+#         print("not prime")
+#     else:
+#         for j in range(2,int(n**0.5)+1):
+#             if num%j==0:
+#                 print(num,"not prime")
+#                 break
+#         else:
+#             print(num,"prime")
+
+
+
+
+# # twin prime
+# n1=int(input("enter n1:"))
+# n2=int(input("enter n2:"))
+# if n1<=1 and n2<=1:
+#     print("not prime")
+# else:
+#     for i in range(2,int(n1**0.5)+1) and (2,int(n2**0.5)+1):
+#         if n1%i==0 and n2%i==0:
+#             print("not prime")
+#     else:
+#         if n1-n2==2:
+#             print(n1,n2,"twin prime")
+#         else:
+#             print(n1,n2,"not a twin prime")
+
+
+
+# prime factors
+n=int(input("Enter n:"))
 for i in range(1,n+1):
-    digit=n%10
-    total+=digit
-    n//=10
-print(total)
-
-
+    if n%i==0:
+        print(i)
+    for j in range(2,(int(i**0.5)+1)):
+        if j%i==0:
+            print("not a prime factor")
+    else:
+        print("it is prime  factors")
