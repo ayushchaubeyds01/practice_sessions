@@ -530,3 +530,16 @@ for i in range(1,n+1):
         print("it is prime  factors")
 
 
+
+# prime factors
+n=int(input("Enter n:"))
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)
+    for j in range(2,(int(i**0.5)+1)):
+        if j%i==0:
+            print("not a prime factor")
+    else:
+        print("it is prime  factors")
+
+
