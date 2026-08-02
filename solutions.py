@@ -518,40 +518,18 @@
 
 
 
-# prime factors
-n=int(input("Enter n:"))
-for i in range(1,n+1):
-    if n%i==0:
-        print(i)
-    for j in range(2,(int(i**0.5)+1)):
-        if j%i==0:
-            print("not a prime factor")
+
+# twin prime
+n1=int(input("enter n1:"))
+n2=int(input("enter n2:"))
+if n1<=1 and n2<=1:
+    print("not prime")
+else:
+    for i in range(2,int(n1**0.5)+1) and (2,int(n2**0.5)+1):
+        if n1%i==0 and n2%i==0:
+            print("not prime")
     else:
-        print("it is prime  factors")
-
-
-
-# prime factors
-n=int(input("Enter n:"))
-for i in range(1,n+1):
-    if n%i==0:
-        print(i)
-    for j in range(2,(int(i**0.5)+1)):
-        if j%i==0:
-            print("not a prime factor")
-    else:
-        print("it is prime  factors")
-
-
-# prime factors
-n=int(input("Enter n:"))
-for i in range(1,n+1):
-    if n%i==0:
-        print(i)
-    for j in range(2,(int(i**0.5)+1)):
-        if j%i==0:
-            print("not a prime factor")
-    else:
-        print("it is prime  factors")
-
-
+        if n1-n2==2:
+            print(n1,n2,"twin prime")
+        else:
+            print(n1,n2,"not a twin prime")
