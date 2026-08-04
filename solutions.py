@@ -519,12 +519,39 @@
 
 
 
-n=int(input("Enter n:"))
-for i in range(1,n+1):
-    if n%i==0:
-        print(i)
-    for j in range(2,(int(i**0.5)+1)):
-        if j%i==0:
-            print("not a prime factor")
-    else:
-        print("it is prime  factor")
+# functions 
+
+
+
+# function to add
+# def main():
+#     n1=int(input("enter n:"))
+#     n2=int(input("enter n:"))
+#     print(add(n1,n2))
+# def add(x,y):
+#     return x+y
+# if __name__=="__main__":
+#     main()
+
+
+# # function to subtract
+# def main():
+#     n1,n2=int(input("Enter n1:")),int(input("Enter n2:"))
+#     sub(n1,n2)
+# def sub(x,y):
+#     return x-y
+# if __name__=="__main__":
+#     main()
+
+
+
+# # even odd 
+# def main():
+#     n=int(input("enter n:"))
+#     print(even_odd(n))
+# def even_odd(x):
+#     return "even" if x%2==0 else "odd"
+# if __name__=="__main__":
+#     main()
+
+
