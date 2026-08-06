@@ -555,14 +555,51 @@
 #     main()
 
 
-# function to check factorial
-def main():
-    n=int(input("enter n:"))
-    print(fact(n))
-def fact(x):
-    fact=1
-    for i in range(1,x+1):
-        fact*=i
-    return fact
-if __name__=="__main__":
-    main()
+# # function to check factorial
+# def main():
+#     n=int(input("enter n:"))
+#     print(fact(n))
+# def fact(x):
+#     fact=1
+#     for i in range(1,x+1):
+#         fact*=i
+#     return fact
+# if __name__=="__main__":
+#     main()
+
+
+
+
+# # strings
+
+
+
+# find string length
+# n=input("enter n:")
+# print(len(n))
+
+
+# # reverse string
+# n=input("enter n:")
+# print(n[::-1])
+
+
+# # palindrome
+# n=input("enter n:")
+# if n[::-1]==n:
+#     print("it is a palindrome")
+# else:
+#     print("not")
+
+
+
+
+# palindrome
+n=input("enter n:")
+if n[::-1]==n:
+    print("it is a palindrome")
+else:
+    print("not")
+
+
+
