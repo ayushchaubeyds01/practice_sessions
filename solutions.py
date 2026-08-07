@@ -603,3 +603,11 @@ else:
 
 
 
+
+# palindrome
+n=input("enter n:")
+if n[::-1]==n:
+    print("it is a palindrome")
+else:
+    print("not")
+
